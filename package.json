@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "workspaces": [
+    "create-data-service",
+    "create-data-webui",
+    "ui-components",
+    "storybook"
+  ]
+}
