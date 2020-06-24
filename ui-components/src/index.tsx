@@ -1,6 +1,8 @@
-import * as React from 'react';
+import * as components from './components';
+import * as layouts from './layouts';
 
-// Delete me
-export const EPOD = () => {
-  return <div>EPOD comp!</div>;
-};
+const { EPODWelcome } = components;
+
+const { SideBySide } = layouts;
+
+export { EPODWelcome, SideBySide };
