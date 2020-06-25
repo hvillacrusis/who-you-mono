@@ -1,2 +1,6 @@
 import SideBySide from './side-by-side';
-export { SideBySide };
+import * as headerLayouts from './card-header-layout';
+
+const { HeaderLayout, HeaderLayoutV2 } = headerLayouts;
+
+export { SideBySide, HeaderLayout, HeaderLayoutV2 };

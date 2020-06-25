@@ -1,3 +1,4 @@
 import EPODWelcome from './epod-welcome';
+import DeliveryHeader from './DeliveryHeader';
 
-export { EPODWelcome };
+export { EPODWelcome, DeliveryHeader };

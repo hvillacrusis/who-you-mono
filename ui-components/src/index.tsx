@@ -1,8 +1,12 @@
 import * as components from './components';
 import * as layouts from './layouts';
 
-const { EPODWelcome } = components;
+const { EPODWelcome, DeliveryHeader } = components;
 
-const { SideBySide } = layouts;
+const { SideBySide, HeaderLayoutV2, HeaderLayout } = layouts;
 
-export { EPODWelcome, SideBySide };
+// export domain components
+export { EPODWelcome, DeliveryHeader };
+
+// export layouts
+export { SideBySide, HeaderLayout, HeaderLayoutV2 };
