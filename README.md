@@ -31,7 +31,22 @@
    the `layouts` section contains all reusable and complex layouting needs using the `render props` or `children and family` patters, please refer to [the handbook](http://codee.cafe) for further details.
 
 1. storybook
+
+   minimal contents should include, list of components, layouts, pages/screens
+   please use domain specific components naming as much as posible, i.e. DateWidget, DeliveryDetails
+
 1. create-data-webui
+
+   please only import domain specific components as much as possible,
+
+   i.e.
+
+   ```typescript
+   import { DriverDetails } from "@epod/ui"; // super good
+   import { Button, Layout1, Text } from "@epod/ui"; // very BAD!
+   ```
+
+   the goal of this package is for data wiring, business logic, and website related logic
 
 # Where to put what
 
