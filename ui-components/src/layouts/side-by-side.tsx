@@ -11,7 +11,13 @@ export interface IProps {
 const SideBySideLayout = (props: IProps) => {
   const { Left, Right, leftStyle, rightStyle, containerStyle } = props;
   return (
-    <div style={{ display: 'flex', flexDirection: 'row', ...containerStyle }}>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'row',
+        ...containerStyle,
+      }}
+    >
       <div style={{ ...leftStyle }}>{Left}</div>
       <div style={{ ...rightStyle }}>{Right}</div>
     </div>

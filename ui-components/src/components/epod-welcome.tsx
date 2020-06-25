@@ -8,7 +8,7 @@ const EPODWelcome = (props: IProps) => {
   const { message } = props;
   return (
     <div>
-      EPOD components, halo <span>{message}!</span>
+      EPOD components, yow <span>{message}!</span>
     </div>
   );
 };
