@@ -2,7 +2,7 @@ import React from "react"
 
 import { storiesOf } from "@storybook/react"
 
-import { EPODWelcome, SideBySide } from "@epod/ui"
+import { EPODWelcome, SideBySide, CenteredContent } from "@epod/ui"
 
 storiesOf("Layouts", module)
   .add("Simple side by side", (props?: Partial<any>) => (
@@ -20,4 +20,7 @@ storiesOf("Layouts", module)
       rightStyle={{ background: "#888", color: "pink" }}
       containerStyle={{ border: "1px dashed blue" }}
     />
+  ))
+  .add("Centered Content", (props?: Partial<any>) => (
+    <CenteredContent content="Centered"></CenteredContent>
   ))

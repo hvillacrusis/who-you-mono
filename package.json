@@ -1,8 +1,8 @@
 {
   "private": true,
   "workspaces": [
-    "create-data-service",
-    "create-data-webui",
+    "who-you-service",
+    "who-you-webui",
     "ui-components",
     "storybook"
   ]

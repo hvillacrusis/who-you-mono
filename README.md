@@ -16,9 +16,9 @@
 
 1. the `storybook` package renders and documents members of the `ui-components` package, this package should also show code samples on how to use these components.
 
-1. `create-data-webui`, this package 'marries'/'wires' the data part of the application to the `ui-components`, it also holds website logic, i.e. Routing/Navigation, web-workers, redirects, etc.
+1. `who-you-webui`, this package 'marries'/'wires' the data part of the application to the `ui-components`, it also holds website logic, i.e. Routing/Navigation, web-workers, redirects, etc.
 
-1. `create-data-service`, a gql endpoint for all your data needs
+1. `who-you-service`, a gql endpoint for all your data needs
 
 # Project Structure
 
